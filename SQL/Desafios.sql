@@ -10,3 +10,10 @@ The CITY table is described as follows:*/
 SELECT name
 FROM city
 WHERE countrycode = 'USA' AND population > 120000
+
+
+
+/*Query all columns (attributes) for every row in the CITY table.
+
+The CITY table is described as follows:*/
+SELECT * FROM city
