@@ -17,3 +17,8 @@ WHERE countrycode = 'USA' AND population > 120000
 
 The CITY table is described as follows:*/
 SELECT * FROM city
+
+/*Query all columns for a city in CITY with the ID 1661.
+
+The CITY table is described as follows:*/
+SELECT * FROM city WHERE ID = '1661'
