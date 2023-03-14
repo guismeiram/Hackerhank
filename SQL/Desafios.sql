@@ -26,8 +26,11 @@ SELECT * FROM city WHERE ID = '1661'
 The CITY table is described as follows:*/
 SELECT * FROM city WHERE countrycode = 'JPN'
 
-
-
 /*Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
 The CITY table is described as follows:*/
 SELECT name FROM City WHERE countrycode = 'JPN'
+
+/*Query a list of CITY and STATE from the STATION table.
+The STATION table is described as follows:*/
+SELECT city, state
+FROM station
